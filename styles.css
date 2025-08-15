@@ -1,0 +1,89 @@
+/* -----------------------------
+   General Body Styling
+------------------------------ */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* -----------------------------
+   Header Styling
+------------------------------ */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Inner spacing */
+    margin-bottom: 20px; /* Space below header */
+}
+
+/* -----------------------------
+   Navigation Styling
+------------------------------ */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px; /* Spacing between menu items */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* -----------------------------
+   Card Sections (Box Model)
+------------------------------ */
+.card {
+    background-color: white;
+    border: 2px solid #ccc; /* Border */
+    padding: 20px; /* Inner spacing */
+    margin: 15px auto; /* Outer spacing */
+    width: 80%;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+/* -----------------------------
+   Button Styling
+------------------------------ */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* -----------------------------
+   Footer Styling
+------------------------------ */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
